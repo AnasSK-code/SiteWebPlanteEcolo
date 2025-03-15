@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Personnalisation de la barre de défilement */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #609a65;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #00cf07;
+    border-radius: 5px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #009b05;
+  }
+  
+
+
+
